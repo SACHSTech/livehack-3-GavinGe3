@@ -22,7 +22,7 @@ for i in range(6):
   if winOrLose == "W":
     wins += 1
   
-# determines which group the team is placed in or if they have been elminated
+# determines and outputs which group the team is placed in or if they have been elminated
 if wins > 4:
   print("Your team is in Group 1")
 elif wins > 2 and wins < 5:

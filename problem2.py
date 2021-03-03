@@ -21,7 +21,7 @@ while totalDistance <= 100:
   totalDistance += float(input("Enter the distance travelled for the day: "))
   days += 1
 
-# outputs the number of days it took to surpass 100km and the average km travelled per day
+# outputs and calculates the number of days it took to surpass 100km and the average km travelled per day
 print("\n ** Summary **")
 print(f"It took {days} days to surpass 100km driven.")
 print(f"The average distance driven per day is {round(totalDistance / days)} km.")
